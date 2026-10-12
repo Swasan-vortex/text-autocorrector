@@ -2,8 +2,8 @@ from corrector import correct_text
 from grammar import fix_grammar
 
 def full_correct(text):
-    step1 = correct_text(text)   # pehle spelling theek karo
-    step2 = fix_grammar(step1)   # phir grammar aur context
+    step1 = correct_text(text)   
+    step2 = fix_grammar(step1)   
     return step1, step2
 
 if __name__ == "__main__":
