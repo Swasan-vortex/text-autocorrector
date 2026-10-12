@@ -4,7 +4,7 @@ from spellchecker import SpellChecker
 spell = SpellChecker()
 
 def correct_text(text):
-    # Text ko words aur punctuation mein todna
+    
     parts = re.findall(r"[A-Za-z']+|[^A-Za-z']+", text)
     result = []
     for part in parts:
